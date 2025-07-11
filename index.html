@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">
+          <i class="fas fa-code me-2"></i>Portfolio
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero-section min-vh-100 d-flex align-items-center py-4"
+    >
+      <div class="container">
+        <div class="row align-items-center g-0">
+          <!-- Removed gutters with g-0 -->
+          <div class="col-lg-6 order-lg-1 order-2">
+            <!-- Changed order for mobile -->
+            <div class="hero-content pe-lg-4">
+              <h1 class="display-5 fw-bold mb-3 fade-in">
+                <!-- Reduced display size -->
+                Hi, I'm <span class="text-primary">Sechana T V</span>
+              </h1>
+              <p class="lead mb-4 fade-in-delay">
+                Aspiring AI & ML Engineer, passionate about using AI to solve
+                real-world problems. Seeking an internship or entry-level
+                position in the field of AI.
+              </p>
+              <div class="d-flex flex-wrap gap-3 fade-in-delay-2">
+                <!-- Better button spacing -->
+                <a
+                  href="#projects"
+                  class="btn btn-primary btn-lg smooth-scroll"
+                >
+                  <i class="fas fa-code me-2"></i>View My Work
+                </a>
+                <a
+                  href="#contact"
+                  class="btn btn-outline-secondary btn-lg smooth-scroll"
+                >
+                  <i class="fas fa-envelope me-2"></i>Get In Touch
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0 text-center">
+            <!-- Added order classes -->
+            <div class="profile-image-container mx-auto">
+              <!-- Centered container -->
+              <img
+                src="https://drive.google.com/thumbnail?id=1NAXPecM7E5UG3lGtT1hC33ywmzwXobIv"
+                alt="Professional headshot"
+                class="rounded-circle profile-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h2 class="display-5 fw-bold">About Me</h2>
+            <p class="lead text-muted">
+              Get to know more about my background and experience
+            </p>
+          </div>
+        </div>
+        <section class="about-section py-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8 text-center">
+                <div class="about-content">
+                  <h3 class="h3 mb-4">Academic Background</h3>
+                  <div class="mx-auto" style="max-width: 700px">
+                    <p class="mb-3">
+                      I am a recent graduate in Artificial Intelligence and
+                      Machine Learning from Vivekananda Institute of Technology
+                      with a CGPA of 8.9 at Bengaluru, passionate about
+                      developing intelligent solutions that address real-world
+                      challenges.
+                    </p>
+                    <p class="mb-3">
+                      My academic journey has provided me with a solid
+                      foundation in machine learning algorithms, data science,
+                      and programming in Python. I have hands-on experience
+                      through academic projects applying AI/ML techniques.
+                    </p>
+                    <p class="mb-4">
+                      I believe in clean code, user-centered design, and
+                      continuous learning. When I'm not coding, I explore new
+                      technologies and contribute to open-source projects.
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-center gap-3 mt-4">
+                    <a
+                      href="https://linkedin.com/in/sechana-tv-a9a627245"
+                      target="_blank"
+                      class="btn btn-primary px-4 py-2"
+                    >
+                      <i class="fab fa-linkedin me-2"></i> LinkedIn
+                    </a>
+                    <a
+                      href="https://github.com/Sechana28"
+                      target="_blank"
+                      class="btn btn-dark px-4 py-2"
+                    >
+                      <i class="fab fa-github me-2"></i> GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 bg-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h2 class="display-5 fw-bold">Professional Experience</h2>
+            <p class="lead text-muted">My journey in AI development</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="timeline">
+              <!-- Timeline items here, as in your original HTML -->
+              <!-- ... (copy your timeline items here) ... -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <div class="experience-card">
+                    <div class="card-3d">
+                      <div class="card-face card-front">
+                        <div class="experience-header">
+                          <h4 class="text-primary">AI Development Intern</h4>
+                          <h5 class="text-muted">HR Labs</h5>
+                          <p class="text-muted small">Feb 2025 - June 2025</p>
+                        </div>
+                        <div class="experience-body">
+                          <p>
+                            Utilized RASA framework for the creation of a
+                            chatbot to a SaaS product.
+                          </p>
+                          <div class="skills-tags">
+                            <span class="badge bg-primary">RASA</span>
+                            <span class="badge bg-success">Python</span>
+                            <span class="badge bg-info">n8n</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-face card-back">
+                        <div class="achievements">
+                          <h5 class="text-primary mb-3">Key Achievements</h5>
+                          <ul class="list-unstyled">
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Developed a conversational AI chatbot
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Enhanced user experience and automated customer
+                              experience
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Improved AI Agent Understanding
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Driving business value
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <div class="experience-card">
+                    <div class="card-3d">
+                      <div class="card-face card-front">
+                        <div class="experience-header">
+                          <h4 class="text-primary">
+                            Machine Learning Engineer
+                          </h4>
+                          <h5 class="text-muted">Rooman Technologies</h5>
+                          <p class="text-muted small">Sep 2025 - Feb 2025</p>
+                        </div>
+                        <div class="experience-body">
+                          <p>
+                            Worked on a project titled Cognitive customer
+                            insights with IBM's Watson AI for leveraging enhaced
+                            customer engagement.
+                          </p>
+                          <div class="skills-tags">
+                            <span class="badge bg-primary">Watson AI</span>
+                            <span class="badge bg-success">Python</span>
+                            <span class="badge bg-info">Streamlit</span>
+                            <span class="badge bg-warning">NLP</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-face card-back">
+                        <div class="achievements">
+                          <h5 class="text-primary mb-3">Key Achievements</h5>
+                          <ul class="list-unstyled">
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Tools used are NLP, ML from IBM's Watson AI
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Analysed customer sentiment and preference
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Designed interactive visualisation
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Improved code quality standards
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <div class="experience-card">
+                    <div class="card-3d">
+                      <div class="card-face card-front">
+                        <div class="experience-header">
+                          <h4 class="text-primary">Machine Learning Intern</h4>
+                          <h5 class="text-muted">Compsoft Technologies</h5>
+                          <p class="text-muted small">Oct 2023 - Dec 2023</p>
+                        </div>
+                        <div class="experience-body">
+                          <p>
+                            Focused on creating a healthcare system using RASA,
+                            leveraging its contextual understanding capabilities
+                            to improve patient interactions.
+                          </p>
+                          <div class="skills-tags">
+                            <span class="badge bg-primary">RASA</span>
+                            <span class="badge bg-success">HTML5</span>
+                            <span class="badge bg-info">CSS3</span>
+                            <span class="badge bg-warning">Bootstrap</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-face card-back">
+                        <div class="achievements">
+                          <h5 class="text-primary mb-3">Key Achievements</h5>
+                          <ul class="list-unstyled">
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Healthcare System Development
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Web application development
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Applied NLP concepts to develop a healthcare
+                              system
+                            </li>
+                            <li>
+                              <i
+                                class="fas fa-check-circle text-success me-2"
+                              ></i
+                              >Enhanced patient interactions and support
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h2 class="display-5 fw-bold">Skills & Technologies</h2>
+            <p class="lead text-muted">Tools and technologies I work with</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="skill-card card h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-html5 fa-3x text-warning mb-3"></i>
+                <h5 class="card-title">Frontend</h5>
+                <p class="card-text">HTML5, CSS3, JavaScript, Bootstrap</p>
+                <div class="progress mb-2">
+                  <div class="progress-bar bg-warning" style="width: 70%"></div>
+                </div>
+                <small class="text-muted">70% Proficiency</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="skill-card card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-server fa-3x text-success mb-3"></i>
+                <h5 class="card-title">Backend</h5>
+                <p class="card-text">Python, Flask, Django, Streamlit</p>
+                <div class="progress mb-2">
+                  <div class="progress-bar bg-success" style="width: 80%"></div>
+                </div>
+                <small class="text-muted">80% Proficiency</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="skill-card card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-database fa-3x text-info mb-3"></i>
+                <h5 class="card-title">Database</h5>
+                <p class="card-text">MySQL, PostgreSQL, MongoDB</p>
+                <div class="progress mb-2">
+                  <div class="progress-bar bg-info" style="width: 60%"></div>
+                </div>
+                <small class="text-muted">60% Proficiency</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="skill-card card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-tools fa-3x text-danger mb-3"></i>
+                <h5 class="card-title">Tools</h5>
+                <p class="card-text">Git, Docker, Kubernetes</p>
+                <div class="progress mb-2">
+                  <div class="progress-bar bg-danger" style="width: 65%"></div>
+                </div>
+                <small class="text-muted">65% Proficiency</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h2 class="display-5 fw-bold">Featured Projects</h2>
+            <p class="lead text-muted">
+              Some of my recent work and accomplishments
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Project cards as in your original HTML -->
+          <!-- ... (copy your project cards here) ... -->
+          <div class="col-lg-4 mb-4">
+            <div class="project-card card h-100">
+              <div class="card-body">
+                <div class="project-icon mb-3">
+                  <i class="fas fa-heartbeat fa-3x text-danger"></i>
+                </div>
+                <h5 class="card-title">
+                  Prediction of Cardiac Arrhythmia using Machine Learning
+                  Algorithms
+                </h5>
+                <p class="card-text">
+                  Designed and implemented a system to predict cardiac
+                  arrhythmia from ECG data for early diagnosis and clinical
+                  support.
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="badge bg-primary me-1">Python</span>
+                  <span class="badge bg-success me-1">Aurdino IDE</span>
+                  <span class="badge bg-info me-1">Thingspeak Cloud</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline-primary btn-sm me-2"> </a>
+                  <a href="#" class="btn btn-outline-secondary btn-sm">
+                    <i class="fab fa-github me-1"></i>Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="project-card card h-100">
+              <div class="card-body">
+                <div class="project-icon mb-3">
+                  <i class="fas fa-comment-medical fa-3x text-success"></i>
+                </div>
+                <h5 class="card-title">Menstrual Healthcare Chatbot</h5>
+                <p class="card-text">
+                  Aims to promote, menstrual health awareness, utlized LM
+                  Studio's Language model capabilities using Mistral 7B as LLM
+                  and streamlit for intractive interface.
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="badge bg-success me-1">LLM</span>
+                  <span class="badge bg-warning me-1">Python</span>
+                  <span class="badge bg-info me-1">Streamlit</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline-primary btn-sm me-2"> </a>
+                  <a href="#" class="btn btn-outline-secondary btn-sm">
+                    <i class="fab fa-github me-1"></i>Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="project-card card h-100">
+              <div class="card-body">
+                <div class="project-icon mb-3">
+                  <i class="fas fa-mobile-alt fa-3x text-warning"></i>
+                </div>
+                <h5 class="card-title">
+                  Cognitive Customer Insights using Watson AI
+                </h5>
+                <p class="card-text">
+                  To enhance Customer engagement and provide sentiment analysis,
+                  utilizes IBM's NLP, ML and Cloud Object Storage.
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="badge bg-info me-1">Python</span>
+                  <span class="badge bg-primary me-1">Watson Studio(AI)</span>
+                  <span class="badge bg-success me-1">Streamlit</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline-primary btn-sm me-2"> </a>
+                  <a
+                    href="https://github.com/Sechana28/cognitive-customer-segmentation"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    <i class="fab fa-github me-1"></i>Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h2 class="display-5 fw-bold">Get In Touch</h2>
+            <p class="lead text-muted">
+              Let's discuss your next project or collaboration
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form class="contact-form">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  name="subject"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  <i class="fas fa-paper-plane me-2"></i>Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 text-center mb-4">
+            <div class="contact-info">
+              <i class="fas fa-envelope fa-2x text-primary mb-3"></i>
+              <h5>Email</h5>
+              <p class="text-muted">sechana.tv2812@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center mb-4">
+            <div class="contact-info">
+              <i class="fas fa-phone fa-2x text-primary mb-3"></i>
+              <h5>Phone</h5>
+              <p class="text-muted">+91 8660765545</p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center mb-4">
+            <div class="contact-info">
+              <i class="fas fa-download fa-2x text-primary mb-3"></i>
+              <h5>Resume</h5>
+              <a
+                href="static/files/SechanaTV.pdf"
+                class="btn btn-outline-primary"
+              >
+                <i class="fas fa-file-pdf me-2"></i>Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2025 Professional Portfolio. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
